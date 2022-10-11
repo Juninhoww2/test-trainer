@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  color:  #2D2D2D;
+
+}
+
+
+body {
+  background: #f2f2f2;
+}
+
+
+/* start flexing */
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer input{
+  width: 557px;
+  height: 93px;
+  left: 150px;
+  top: 267px;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.textarea {
+  width: 557px;
+    height: 93px;
+    left: 150px;
+    top: 267px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+
+
+
